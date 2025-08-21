@@ -83,7 +83,8 @@ bash
 
 frontend/
 ├── assets/              # Static icons, images
-├── components/          # Reusable UI components
+├── components/          # Reusable UI components and not only
+├── pages/               # Router pages
 ├── services/            # API client
 ├── styles/              # styles
 ├── types/               # types   

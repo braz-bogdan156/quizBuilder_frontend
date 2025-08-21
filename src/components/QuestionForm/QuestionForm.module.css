@@ -1,0 +1,7 @@
+.wrap { display: flex; flex-direction: column; gap: 12px; }
+.header { display: flex; align-items: center; justify-content: space-between; margin: 8px 0; }
+.block { padding: 14px; }
+.row { display: grid; grid-template-columns: 120px 1fr; gap: 12px; align-items: center; margin: 10px 0; }
+.label { color: var(--muted); font-size: 13px; }
+.hint { color: var(--muted); font-size: 12px; margin-top: 6px; }
+.actions { display: flex; justify-content: flex-end; gap: 8px; }

@@ -1,29 +1,28 @@
-export interface QuizData {
-  title: string;
-  questions: Array<{
-    question: string;
-    options: string[];
-    answer: string;
-  }>;
+export type QuestionType = "boolean" | "input" | "checkbox";
+
+export interface QuestionPayload {
+  text: string;
+  type: QuestionType;
+  options?: string[];
+  optionsText?: string;
 }
 
-type Question = {
-  id: string;
-  text: string;
-  };
-
-export type Quiz = {
-  id: string;
+export interface CreateQuizPayload {
   title: string;
-  questions: Question[];
-};
+  questions: QuestionPayload[];
+}
 
-export type QuestionDetail = {
-  text: string;
-  type: string;
-};
-
-export type QuizDetail = {
+export interface QuizListItem {
+  _id?: string;  
+  id?: string;   
   title: string;
-  questions: QuestionDetail[];
-};
+  questionCount?: number;        
+  questions?: QuestionPayload[]; 
+}
+
+export interface QuizDetail {
+  _id?: string;
+  id?: string;
+  title: string;
+  questions: QuestionPayload[];
+}

@@ -1,0 +1,12 @@
+.card { padding: 18px; }
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.list { display: flex; flex-direction: column; gap: 10px; }
+.item {
+  display: flex; align-items: center; justify-content: space-between;
+  background: #121727; border: 1px solid var(--border); border-radius: 10px;
+  padding: 12px 14px;
+}
+.title { color: var(--text); text-decoration: none; font-weight: 600; }
+.meta { display: flex; gap: 10px; align-items: center; }
+.count { color: var(--muted); font-size: 13px; }
+.empty { color: var(--muted); margin: 8px 0; }

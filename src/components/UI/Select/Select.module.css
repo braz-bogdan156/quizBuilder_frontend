@@ -1,0 +1,9 @@
+.select {
+  width: 100%;
+  background: #111620;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  padding: 12px 14px;
+  font-size: 14px;
+}

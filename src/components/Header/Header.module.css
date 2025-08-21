@@ -1,0 +1,37 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(13, 15, 20, .8);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.logo {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: .3px;
+}
+
+.nav { display: flex; gap: 14px; }
+.link, .active {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: var(--muted);
+  border-radius: 8px;
+  transition: 120ms ease;
+}
+.link:hover { background: #191e2a; color: var(--text); }
+.active {
+  background: #1a2030;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
