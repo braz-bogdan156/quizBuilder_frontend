@@ -7,7 +7,7 @@ Built with **React + TypeScript** and connected to the backend API.
 ---
 
 ## 🛠 Tech Stack
-- React.js 
+- React.js + React Hook Form
 - TypeScript
 - Axios (API requests)
 - CSS Modules (or custom CSS)
