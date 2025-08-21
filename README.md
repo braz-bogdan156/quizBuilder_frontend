@@ -23,9 +23,8 @@ npm install
 2. Configure API base URL
 Set backend API URL in frontend/services/api.ts:
 
-ts
-
 export const API_URL = "http://localhost:5000";
+
 3. Run dev server
 bash
 
