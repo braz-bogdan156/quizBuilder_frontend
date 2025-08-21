@@ -18,6 +18,7 @@ Built with **React + TypeScript** and connected to the backend API.
 
 ### 1. Install dependencies
 ```bash
+git clone https://github.com/braz-bogdan156/quizBuilder_frontend
 cd frontend
 npm install
 2. Configure API base URL
